@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  tomcat:
+    uri-encoding: UTF-8
+
+spring:
+  data:
+#    mongodb:
+#      database: admin
+#      authentication-database: userAdminAnyDatabase
+#      uri: mongodb://admin:123456@192.168.36.132:27017
+
+    mongodb:
+      host: 192.168.36.132 # mongodb的连接地址
+      port: 27017 # mongodb的连接端口号
+      database: springboot_mongo # mongodb的连接的数据库
+
